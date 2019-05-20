@@ -14,7 +14,7 @@ extends JFrame {
     private void initUI() {
         this.setTitle("\u041a\u0440\u0438\u0432\u044b\u0435 \u0444\u0438\u0433\u0443\u0440\u044b");
         this.setDefaultCloseOperation(3);
-        this.add(new TitlesPanel(57));
+        this.add(new TitlesPanel(57)); //Змінені знінні відповідно завданню варіант 3 (квадрат з діагональним градіентом від білого до сірогу
         this.setSize(350, 350);
         this.setLocationRelativeTo(null);
     }
