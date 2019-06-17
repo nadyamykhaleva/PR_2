@@ -14,7 +14,7 @@ extends JFrame {
     private void initUI() {
         this.setTitle("\u041a\u0440\u0438\u0432\u044b\u0435 \u0444\u0438\u0433\u0443\u0440\u044b");
         this.setDefaultCloseOperation(3);
-        this.add(new TitlesPanel(57)); //Змінені знінні відповідно завданню варіант 3 (квадрат з діагональним градіентом від білого до сірогу
+        this.add(new TitlesPanel(57)); // Заміна значення TItlePanel () для подальшого використання в SWICH-CASE, для побудови необхідних для завдання фігур. Варіант 3 квадарт, на фігури накладається діагональний градієнт від білого до сірого
         this.setSize(350, 350);
         this.setLocationRelativeTo(null);
     }
